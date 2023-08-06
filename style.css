@@ -1,0 +1,15 @@
+/* Let's set the size of the <div> to see the background images clearly */
+.multi-background-div {
+    width: 600px;
+    height: 400px;
+    
+    /* Here we are using multiple background images */
+    background-image: url('./image1.jpeg'), url('./image2.jpeg'), url('./image3.jpeg');
+    
+    /* The background images will be layered from top to bottom in the order they are defined */
+    /* You can also set position, size, and other properties for each image */
+    background-position: top left, center center, bottom right;
+    background-size: 100px 100px, 150px 150px, cover;
+    background-repeat: no-repeat, no-repeat, repeat;
+  }
+  
